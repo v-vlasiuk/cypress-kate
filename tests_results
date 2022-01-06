@@ -1,0 +1,212 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:    7.6.0                                                                              │
+  │ Browser:    Electron 89 (headless)                                                             │
+  │ Specs:      4 found (PlanRunComparePage.feature, PlanRunPage.feature, PlanRunsPage.feature, Te │
+  │             st.feature)                                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  PlanRunComparePage.feature                                                      (1 of 4)
+
+
+  Plan Run Compare
+    ✓ Compare Triage Suite -> Validate Plan Run Compare (5009ms)
+    ✓ Compare Triage Suite -> See test suite candidate and control titles (1894ms)
+    ✓ Compare Triage Suite -> Test Count for candidate and control (5179ms)
+    ✓ Compare Triage Suite -> Code Branch information in header for candidate and control (1260ms)
+    ✓ Compare Triage Suite -> Commit Hash information in header for candidate and control (1371ms)
+    ✓ Compare Triage Suite -> Created At information in header for candidate and control (1216ms)
+    ✓ Compare Triage Suite -> State information in header for candidate and control (1150ms)
+    ✓ Compare Triage Suite -> Extractors information in header for candidate and control (1205ms)
+    ✓ Compare Triage Suite -> number of test items (8197ms)
+    ✓ Compare Triage Suite -> Validate Control Triage Suite Dropdown (1522ms)
+    ✓ Compare Triage Suite -> Validate Candidate Triage Suite Dropdown (1224ms)
+    ✓ Compare Triage Suite -> Validate Comparison of suite run hyperlink (3317ms)
+    ✓ Compare Triage Suite -> Validate Candidate Fast Triage (5130ms)
+    ✓ Compare Triage Suite -> Validate Control Fast Triage (7530ms)
+    ✓ Compare Triage Suite -> Validate Showing Regressions items (5853ms)
+    ✓ Compare Triage Suite -> Validate Showing Improvements items (4563ms)
+    ✓ Compare Triage Suite -> Validate candidate filter by results for "PASS" (5621ms)
+    ✓ Compare Triage Suite -> Validate candidate filter by results for "WARNING" (5999ms)
+    ✓ Compare Triage Suite -> Validate candidate filter by results for "FAILED" (5333ms)
+
+
+  19 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        19                                                                               │
+  │ Passing:      19                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     1 minute, 15 seconds                                                             │
+  │ Spec Ran:     PlanRunComparePage.feature                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /Users/kvlasiuk/driving/experimental/katerynav/TestProject/    (8 seconds)
+                          cypress/videos/PlanRunComparePage.feature.mp4                             
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  PlanRunPage.feature                                                             (2 of 4)
+
+
+  Plan run
+    ✓ See Plan run details page (3029ms)
+    ✓ See test suite title on Plun run Page (1811ms)
+    ✓ Triage Suite Dropdown (1825ms)
+    ✓ Triage Suite -> Bulk Edit Button (2532ms)
+    ✓ Triage Suite -> Test Count (2561ms)
+    ✓ Triage Suite -> Code Branch information (1049ms)
+    ✓ Triage Suite -> Commit Hash information (1254ms)
+    ✓ Triage Suite -> Created At information (1143ms)
+    ✓ Triage Suite -> State information (1016ms)
+    ✓ Triage Suite -> Extractors information (999ms)
+    ✓ Triage -> fast triage button (2781ms)
+    ✓ Triage Suite -> Visit test run page (3521ms)
+    ✓ Triage Suite -> Filter By an existing result (2289ms)
+
+
+  13 passing (27s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        13                                                                               │
+  │ Passing:      13                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     PlanRunPage.feature                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /Users/kvlasiuk/driving/experimental/katerynav/TestProject/    (3 seconds)
+                          cypress/videos/PlanRunPage.feature.mp4                                    
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  PlanRunsPage.feature                                                            (3 of 4)
+
+
+  Plan runs
+    ✓ See the Plan runs page (2766ms)
+    ✓ See the Plan runs list (1446ms)
+    ✓ Change Plan runs list rows numbers (2398ms)
+    ✓ Navigate through pagination (73241ms)
+    ✓ Search by valid runId (2216ms)
+    ✓ Search by invalid runId (2012ms)
+    ✓ Search by valid Plan (8704ms)
+    ✓ Search by invalid Plan (2234ms)
+    ✓ Search by valid Branch (5457ms)
+    ✓ Search by invalid Branch (2232ms)
+    ✓ Search by valid Commit (3703ms)
+    ✓ Search by invalid Commit (2288ms)
+    ✓ Search by valid Username (4978ms)
+    ✓ Search by invalid Username (1590ms)
+    ✓ Search by valid Jobs (2824ms)
+    ✓ Search by invalid Jobs (1768ms)
+
+
+  16 passing (2m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        16                                                                               │
+  │ Passing:      16                                                                               │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     2 minutes, 2 seconds                                                             │
+  │ Spec Ran:     PlanRunsPage.feature                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+    Compression progress:  55%
+  -  Finished processing: /Users/kvlasiuk/driving/experimental/katerynav/TestProject/   (18 seconds)
+                          cypress/videos/PlanRunsPage.feature.mp4                                   
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  Test.feature                                                                    (4 of 4)
+
+
+  Test
+    ✓ See the Plan runs page (2884ms)
+
+
+  1 passing (4s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     4 seconds                                                                        │
+  │ Spec Ran:     Test.feature                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /Users/kvlasiuk/driving/experimental/katerynav/TestProject/     (1 second)
+                          cypress/videos/Test.feature.mp4                                           
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  PlanRunComparePage.feature               01:15       19       19        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  PlanRunPage.feature                      00:27       13       13        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  PlanRunsPage.feature                     02:02       16       16        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  Test.feature                             00:04        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        03:49       49       49        -        -        -  
+

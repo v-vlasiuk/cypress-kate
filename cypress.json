@@ -1,0 +1,6 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "viewportWidth": 2000,
+    "viewportHeight": 1320,
+    "defaultCommandTimeout": 30000
+}
