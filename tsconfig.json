@@ -2,11 +2,12 @@
       "compilerOptions": 
       {
         "target": "es5",
-        "lib": ["es5", "dom"],
+        "lib": ["es6", "dom"],
         "types": ["cypress", "node"],
         "module": "commonjs",
         "strict": true, 
-        "esModuleInterop": true
-      },
-      "include":["**/*.ts"]
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+      }
     }
