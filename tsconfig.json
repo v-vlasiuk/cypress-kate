@@ -5,9 +5,9 @@
         "lib": ["es6", "dom"],
         "types": ["cypress", "node"],
         "module": "commonjs",
-        "strict": true, 
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "skipLibCheck": true
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true
       }
+
     }
