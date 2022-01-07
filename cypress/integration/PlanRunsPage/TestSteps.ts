@@ -1,4 +1,5 @@
-/// <reference types="cypress" /> 
+/// <reference types="cypress" />
+
 import { PlanRunsPageController } from "../PageController/PlanRunsPageController";
 const { Given, When, Then } = require( "cypress-cucumber-preprocessor/steps");
 
